@@ -1,0 +1,384 @@
+/*
+
+AMD Vivado v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Wed May 21 22:58:25 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 7233
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Oct 26 15:19:04 GMT 2025
+Time zone: 	Greenwich Mean Time (GMT)
+
+OS: Ubuntu
+OS Version: 6.17.2-arch1-1
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: true
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/fpga/installation/2025.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/fpga/installation/2025.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	kaki
+User home directory: /home/kaki
+User working directory: /home/kaki/projects/projects/aobo_pgd/uart/auto_create_project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /fpga/installation/2025.1
+HDI_APPROOT: /fpga/installation/2025.1/Vivado
+RDI_DATADIR: /fpga/installation/2025.1/data
+RDI_BINDIR: /fpga/installation/2025.1/Vivado/bin
+
+Vivado preferences file: /home/kaki/.Xilinx/Vivado/2025.1/vivado.xml
+Vivado preferences directory: /home/kaki/.Xilinx/Vivado/2025.1/
+Vivado layouts directory: /home/kaki/.Xilinx/Vivado/2025.1/data/layouts
+PlanAhead jar file: 	/fpga/installation/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/vivado.log
+Vivado journal file: 	/home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-7233-KakiArch
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /fpga/installation/2025.1/Vivado
+RDI_BASEROOT: /fpga/installation/2025.1
+RDI_BINROOT: /fpga/installation/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: /fpga/installation/2025.1/Vivado/data
+RDI_INSTALLROOT: /fpga/installation
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /fpga/installation/2025.1/Vivado/lib/lnx64.o/Ubuntu/24:/fpga/installation/2025.1/Vivado/lib/lnx64.o/Ubuntu:/fpga/installation/2025.1/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /fpga/installation/2025.1/Vitis/bin:/fpga/installation/2025.1/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /fpga/installation/2025.1/Vivado/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/kaki/projects/projects/aobo_pgd/uart/auto_create_project:KakiArch_1761491930_7144
+RDI_SHARED_DATA: /fpga/installation/SharedData/Vivado/data
+RDI_TPS_ROOT: /fpga/installation/2025.1/Vivado/tps/lnx64
+RDI_USE_JDK21: True
+XILINX: /fpga/installation/2025.1/Vivado/ids_lite/ISE
+XILINX_DSP: /fpga/installation/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: /fpga/installation/2025.1/Vitis
+XILINX_PLANAHEAD: /fpga/installation/2025.1/Vivado
+XILINX_SDK: /fpga/installation/2025.1/Vitis
+XILINX_VITIS: /fpga/installation/2025.1/Vitis
+XILINX_VIVADO: /fpga/installation/2025.1/Vivado
+_JAVA_AWT_WM_NONREPARENTING: 1
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 1,824 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ah (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,834 MB. GUI used memory: 66 MB. Current time: 10/26/25, 3:19:05 PM GMT
+selectMenuItem(RDIResourceCommand.RDICommands_RUN_SCRIPT, "Run Tcl Script..."); // ap (RDIResourceCommand.RDICommands_RUN_SCRIPT, run_script_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ah (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: RDIResourceCommand.RDICommands_RUN_SCRIPT
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+setFileChooser("/home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/create_project.tcl");
+// Source Tcl File: '/home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/create_project.tcl'
+// Tcl Command: 'source /home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/create_project.tcl'
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: source /home/kaki/projects/projects/aobo_pgd/uart/auto_create_project/create_project.tcl 
+// Tcl Message: # set tclpath [pwd] # cd $tclpath # set src_dir $tclpath/src # set projName "uart" # cd .. # set projpath [pwd] # source $projpath/auto_create_project/project_info.tcl ## set devicePart "xczu2cg-sfvc784-1-e" ## set runs_jobs 5 # create_project -force $projName $projpath -part $devicePart 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 88 MB (+89295kb) [00:00:16]
+// [Engine Memory]: 1,880 MB (+1819535kb) [00:00:16]
+// [GUI Memory]: 125 MB (+34569kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  1449 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/fpga/installation/2025.1/Vivado/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 133 MB (+1510kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 145 MB (+5947kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: # if {[string equal [get_filesets -quiet sources_1] ""]} { #   create_fileset -srcset sources_1 # } # file mkdir $projpath/$projName.srcs/sources_1/ip # file mkdir $projpath/$projName.srcs/sources_1/new # if {[string equal [get_filesets -quiet constrs_1] ""]} { #   create_fileset -constrset constrs_1 # } # file mkdir $projpath/$projName.srcs/constrs_1/new # if {[string equal [get_filesets -quiet constrs_1] ""]} { #   create_fileset -simset sim_1 # } # file mkdir $projpath/$projName.srcs/sim_1/new # set bdname "design_1" # create_bd_design design_1 
+// Tcl Message: Wrote  : </home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/design_1.bd>  
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: # open_bd_design $projpath/$projName.srcs/sources_1/bd/$bdname/$bdname.bd # create_bd_cell -type ip -vlnv xilinx.com:ip:zynq_ultra_ps_e:3.5 zynq_ultra_ps_e_0 
+// TclEventType: LOAD_FEATURE
+// [Engine Memory]: 2,067 MB (+97298kb) [00:00:20]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// [Engine Memory]: 2,170 MB (+570kb) [00:00:23]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_VALIDATE_DIAGRAM
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: # set_property -dict [list CONFIG.PSU__USE__IRQ0 {1}] [get_bd_cells zynq_ultra_ps_e_0] # set_property -dict [list CONFIG.PSU__USE__S_AXI_GP2 {1}] [get_bd_cells zynq_ultra_ps_e_0] 
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: # set_property -dict [list CONFIG.PSU__USE__S_AXI_GP3 {1}] [get_bd_cells zynq_ultra_ps_e_0] 
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: # set_property -dict [list CONFIG.PSU__GPIO_EMIO__PERIPHERAL__ENABLE {1}] [get_bd_cells zynq_ultra_ps_e_0] 
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: # connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/saxihp1_fpd_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] # connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/saxihp0_fpd_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] # connect_bd_net [get_bd_pins zynq_ultra_ps_e_0/maxihpm0_lpd_aclk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] # if {[string equal $projName "uart"]} { #   puts "uart" #   set_property -dict [list CONFIG.PSU__DDRC__BUS_WIDTH {32 Bit}] [get_bd_cells zynq_ultra_ps_e_0] # } else { #   puts "uart" #   set_property -dict [list CONFIG.PSU__SD0__PERIPHERAL__ENABLE {1}  CONFIG.PSU__SD0__SLOT_TYPE {eMMC}  CONFIG.PSU__SD0__RESET__ENABLE {1}] [get_bd_cells zynq_ultra_ps_e_0]   # } 
+// Tcl Message: uart 
+// Tcl Message: # regenerate_bd_layout # validate_bd_design 
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: # save_bd_design		  
+// Tcl Message: Wrote  : </home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: # make_wrapper -files [get_files $projpath/$projName.srcs/sources_1/bd/$bdname/$bdname.bd] -top 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/synth/design_1.v Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: # puts $bdname 
+// Tcl Message: design_1 
+// Tcl Message: # append wrapperName $bdname "_wrapper" # add_files -norecurse $projpath/$projName.gen/sources_1/bd/$bdname/hdl/$wrapperName.v  # puts $wrapperName 
+// Tcl Message: design_1_wrapper 
+// Tcl Message: # set_property top $wrapperName [current_fileset] # add_files -fileset constrs_1  -copy_to $projpath/$projName.srcs/constrs_1/new -force -quiet [glob -nocomplain $src_dir/constraints/*.xdc] 
+// Tcl Message: /home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/constrs_1/new/gpio.xdc /home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/constrs_1/new/mipi.xdc /home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/constrs_1/new/system.xdc 
+// WARNING: HTimer (Open addressing views timer) is taking 86ms to process. Increasing delay to 1300 ms.
+dismissDialog("Source Tcl Script"); // bk (Source Tcl Script Progress)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 86 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // ab
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 153 MB (+974kb) [00:21:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,200 MB. GUI used memory: 73 MB. Current time: 10/26/25, 3:40:30 PM GMT
+// Elapsed time: 1184 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Ok", "Run Linter"); // f (PAResourceOtoP.OpenOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files /home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/synth/design_1.v Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,249 MB. GUI used memory: 74 MB. Current time: 10/26/25, 3:40:55 PM GMT
+// Tcl Message: INFO: [PSU-0] Address Range of DDR (0x3ff00000 to 0x3fffffff) is reserved by PMU for internal purpose. 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_LPD'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created. INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP1_FPD'. A default connection has been created. INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 . 
+// Tcl Message: Exporting to file /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Hardware Definition File /home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 10186.840 ; gain = 48.203 ; free physical = 13151 ; free virtual = 27631 
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/design_1.bd] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,290 MB. GUI used memory: 76 MB. Current time: 10/26/25, 3:40:58 PM GMT
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// [Engine Memory]: 2,290 MB (+11253kb) [00:22:04]
+// Tcl Message: launch_runs design_1_zynq_ultra_ps_e_0_0_synth_1 -jobs 8 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Sun Oct 26 15:40:59 2025] Launched design_1_zynq_ultra_ps_e_0_0_synth_1... Run output will be captured here: /home/kaki/projects/projects/aobo_pgd/uart/uart.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/runme.log 
+// Tcl Message: wait_on_run design_1_zynq_ultra_ps_e_0_0_synth_1 
+// Tcl Message: [Sun Oct 26 15:41:00 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Sun Oct 26 15:41:05 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,271 MB. GUI used memory: 75 MB. Current time: 10/26/25, 3:41:07 PM GMT
+// Tcl Message: [Sun Oct 26 15:41:10 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sun Oct 26 15:41:15 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sun Oct 26 15:41:25 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sun Oct 26 15:41:35 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,271 MB. GUI used memory: 75 MB. Current time: 10/26/25, 3:41:37 PM GMT
+// Tcl Message: [Sun Oct 26 15:41:45 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// Tcl Message: [Sun Oct 26 15:41:55 2025] Waiting for design_1_zynq_ultra_ps_e_0_0_synth_1 to finish... 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: [Sun Oct 26 15:42:05 2025] design_1_zynq_ultra_ps_e_0_0_synth_1 finished 
+// Tcl Message: wait_on_runs: Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 10266.891 ; gain = 0.000 ; free physical = 13138 ; free virtual = 27622 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -top design_1_wrapper -part xczu2cg-sfvc784-1-e -lint  
+// Tcl Message: Command: synth_design -top design_1_wrapper -part xczu2cg-sfvc784-1-e -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xczu2cg' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu2cg' INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 9530 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,469 MB. GUI used memory: 76 MB. Current time: 10/26/25, 3:42:07 PM GMT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 10544.414 ; gain = 277.523 ; free physical = 12624 ; free virtual = 27108 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13] INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/synth/design_1.v:13] INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/kaki/projects/projects/aobo_pgd/uart/.Xil/Vivado-7233-KakiArch/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (1#1) [/home/kaki/projects/projects/aobo_pgd/uart/.Xil/Vivado-7233-KakiArch/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'design_1' (2#1) [/home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/synth/design_1.v:13] INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (3#1) [/home/kaki/projects/projects/aobo_pgd/uart/uart.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 10591.570 ; gain = 324.680 ; free physical = 12570 ; free virtual = 27056 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 0 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 10603.445 ; gain = 336.555 ; free physical = 12563 ; free virtual = 27048 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 13 Infos, 54 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 10603.453 ; gain = 336.562 ; free physical = 12556 ; free virtual = 27042 
+// Tcl Message: INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2485.898; main = 2078.807; forked = 407.092 INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 11559.680; main = 10603.449; forked = 956.230 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.a': 01m:33s
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 167 MB (+6702kb) [00:23:43]
+// [Engine Memory]: 2,665 MB (+273886kb) [00:23:43]
+// 'a' command handler elapsed time: 444 seconds
+// Elapsed time: 442 seconds
+selectButton("OptionPane.button", "OK", "Generate Output Products"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 28m:48s
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 28m:52s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // f (RDIResource.BaseDialog_OK)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,702 MB. GUI used memory: 86 MB. Current time: 10/26/25, 3:48:05 PM GMT
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+dismissDialog("Launch Runs"); // g (dialog2)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PAUSE_COMPOSITE_FILE_CHANGE_GUI
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Sun Oct 26 15:48:05 2025] Launched synth_1... Run output will be captured here: /home/kaki/projects/projects/aobo_pgd/uart/uart.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bk (Starting Design Runs Progress)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // ab
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 61 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Synthesis Completed"); // f (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Synthesis Completed"); // W.a (dialog3)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,687 MB. GUI used memory: 87 MB. Current time: 10/26/25, 4:18:05 PM GMT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,687 MB. GUI used memory: 86 MB. Current time: 10/26/25, 4:48:06 PM GMT
+// WARNING: HEventQueue.dispatchEvent() is taking  8770901 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,687 MB. GUI used memory: 87 MB. Current time: 10/26/25, 7:24:39 PM GMT
+// Elapsed time: 12941 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // am (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // am (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // am (PAResourceItoN.MainMenuMgr_IP, IP)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // am (PAResourceItoN.MainMenuMgr_TEXT_EDITOR, Text Editor)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // am (PAResourceItoN.MainMenuMgr_IMPORT, Import)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // am (PAResourceItoN.MainMenuMgr_EXPORT, Export)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ap (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, export_hardware_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ah (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl (Dont Echo) Command: 'get_property pfm_name [get_files -all {/home/kaki/projects/projects/aobo_pgd/uart/uart.srcs/sources_1/bd/design_1/design_1.bd}]'
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+// Elapsed time: 14 seconds
+setText(PAResourceEtoH.ExportFixedPlatformWizard_XSA_FILE_NAME, "uart_wrapper"); // ad (PAResourceEtoH.ExportFixedPlatformWizard_XSA_FILE_NAME)
+selectButton("NEXT", "Next", "Export Hardware Platform"); // JButton (NEXT)
+selectButton("FINISH", "Finish", "Export Hardware Platform"); // JButton (FINISH)
+// 'n' command handler elapsed time: 21 seconds
+dismissDialog("Export Hardware Platform"); // d (dialog4)
+// Tcl Message: write_hw_platform -fixed -force -file /home/kaki/projects/projects/aobo_pgd/uart/uart_wrapper.xsa 
+// Tcl Message: INFO: [Project 1-1918] Creating Hardware Platform: /home/kaki/projects/projects/aobo_pgd/uart/uart_wrapper.xsa ... 
+// Tcl Message: INFO: [Project 1-1943] The Hardware Platform can be used for Hardware INFO: [Project 1-1941] Successfully created Hardware Platform: /home/kaki/projects/projects/aobo_pgd/uart/uart_wrapper.xsa 
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (/fpga/installation/2025.1/Vivado/data/embeddedsw) loading 0 seconds 
+dismissDialog("Export Hardware Platform"); // bk (Export Hardware Platform Progress)

@@ -1,0 +1,6 @@
+.Xil
+*.cache/
+*.gen/
+*.runs/
+*.jou
+*.log
