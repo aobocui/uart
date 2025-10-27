@@ -1,0 +1,3 @@
+/home/kaki/projects/projects/aobo_pgd/uart/uart_platform/zynqmp_pmufw/build/CMakeFiles/pmufw.elf.dir
+/home/kaki/projects/projects/aobo_pgd/uart/uart_platform/zynqmp_pmufw/build/CMakeFiles/edit_cache.dir
+/home/kaki/projects/projects/aobo_pgd/uart/uart_platform/zynqmp_pmufw/build/CMakeFiles/rebuild_cache.dir

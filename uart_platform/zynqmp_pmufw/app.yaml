@@ -1,0 +1,4 @@
+domain_path: /home/kaki/projects/projects/aobo_pgd/uart/uart_platform/zynqmp_pmufw/zynqmp_pmufw_bsp
+app_src_dir: /fpga/installation/2025.1/Vitis/data/embeddedsw/lib/sw_apps/zynqmp_pmufw
+template: zynqmp_pmufw
+lang: c
